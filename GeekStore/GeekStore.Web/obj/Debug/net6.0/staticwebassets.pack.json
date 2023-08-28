@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\GeekStore.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\WorkSpace\\GeekStore\\GeekStore.Web\\wwwroot\\Images\\Mario.png",
+      "PackagePath": "staticwebassets\\Images\\Mario.png"
+    },
+    {
+      "Id": "C:\\WorkSpace\\GeekStore\\GeekStore.Web\\wwwroot\\Images\\Ph03nyx-Super-Mario-Paper-Mario.ico",
+      "PackagePath": "staticwebassets\\Images\\Ph03nyx-Super-Mario-Paper-Mario.ico"
+    },
+    {
       "Id": "C:\\WorkSpace\\GeekStore\\GeekStore.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

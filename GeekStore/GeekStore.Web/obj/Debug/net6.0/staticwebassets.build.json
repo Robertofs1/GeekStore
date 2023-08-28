@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zb/1n/yWpX+p/Q0DxiGGbm6hOdDeRDwttlrb3eUdjp0=",
+  "Hash": "rOnc3+hlFgg+mA6LFjKNRO6hXZfz08s8D9XSb6TUMv8=",
   "Source": "GeekStore.Web",
   "BasePath": "_content/GeekStore.Web",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\WorkSpace\\GeekStore\\GeekStore.Web\\wwwroot\\Images\\Mario.png",
+      "SourceId": "GeekStore.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\WorkSpace\\GeekStore\\GeekStore.Web\\wwwroot\\",
+      "BasePath": "_content/GeekStore.Web",
+      "RelativePath": "Images/Mario.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Mario.png"
+    },
+    {
+      "Identity": "C:\\WorkSpace\\GeekStore\\GeekStore.Web\\wwwroot\\Images\\Ph03nyx-Super-Mario-Paper-Mario.ico",
+      "SourceId": "GeekStore.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\WorkSpace\\GeekStore\\GeekStore.Web\\wwwroot\\",
+      "BasePath": "_content/GeekStore.Web",
+      "RelativePath": "Images/Ph03nyx-Super-Mario-Paper-Mario.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Ph03nyx-Super-Mario-Paper-Mario.ico"
     },
     {
       "Identity": "C:\\WorkSpace\\GeekStore\\GeekStore.Web\\wwwroot\\js\\site.js",

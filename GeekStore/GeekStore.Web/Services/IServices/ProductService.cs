@@ -6,7 +6,7 @@ namespace GeekStore.Web.Services.IServices
     public class ProductService : IProductService
     {
         private readonly HttpClient _httpClient;
-        public const string BasePath = "api/v1/Product";
+        public const string BasePath = "api/v1/product";
         public ProductService(HttpClient httpclient)
         {
             _httpClient = httpclient ?? throw new ArgumentNullException();
@@ -45,7 +45,7 @@ namespace GeekStore.Web.Services.IServices
         {
             var response = await _httpClient.DeleteAsync($"{BasePath}/{Id}");
             if (response.IsSuccessStatusCode)
-                return await response.ReadContentAs<bool>();
+                return true;
             else
                 throw new Exception("something went wrong when calling the api");
         }
