@@ -7,7 +7,7 @@ using System.Security.Claims;
 
 namespace GeekStore.IdentityServer.Initializer
 {
-    public class DbInitializer : IDbInitializer
+    public class DbInitializer : IDBInitializer
     {
         private readonly MySQLContext _context;
         private readonly UserManager<ApplicationUser> _user;
@@ -24,7 +24,6 @@ namespace GeekStore.IdentityServer.Initializer
 
         public void Initialize()
         {
-            if (_role.FindByNameAsync(IdentityConfiguration.Admin).Result != null) return;
             _role.CreateAsync(new IdentityRole(
                 IdentityConfiguration.Admin)).GetAwaiter().GetResult();
             _role.CreateAsync(new IdentityRole(
@@ -33,14 +32,14 @@ namespace GeekStore.IdentityServer.Initializer
             ApplicationUser admin = new ApplicationUser()
             {
                 UserName = "roberto-admin",
-                Email = "roberto-admin@frisanco.com.br",
+                Email = "frisancoroberto@gmail.com",
                 EmailConfirmed = true,
                 PhoneNumber = "+55 (34) 12345-6789",
                 FirstName = "roberto",
                 LastName = "Admin"
             };
 
-            _user.CreateAsync(admin, "frisanco123$").GetAwaiter().GetResult();
+            _user.CreateAsync(admin, "Frisanco123$").GetAwaiter().GetResult();
             _user.AddToRoleAsync(admin,
                 IdentityConfiguration.Admin).GetAwaiter().GetResult();
             var adminClaims = _user.AddClaimsAsync(admin, new Claim[]
@@ -54,14 +53,14 @@ namespace GeekStore.IdentityServer.Initializer
             ApplicationUser client = new ApplicationUser()
             {
                 UserName = "roberto-client",
-                Email = "roberto-client@frisanco.com.br",
+                Email = "frisancoroberto@gmail.com",
                 EmailConfirmed = true,
                 PhoneNumber = "+55 (34) 12345-6789",
                 FirstName = "roberto",
                 LastName = "Client"
             };
 
-            _user.CreateAsync(client, "frisanco123$").GetAwaiter().GetResult();
+            _user.CreateAsync(client, "Frisanco123$").GetAwaiter().GetResult();
             _user.AddToRoleAsync(client,
                 IdentityConfiguration.Client).GetAwaiter().GetResult();
             var clientClaims = _user.AddClaimsAsync(client, new Claim[]

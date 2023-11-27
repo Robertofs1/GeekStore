@@ -1,6 +1,6 @@
 ﻿namespace GeekStore.IdentityServer.Initializer
 {
-    public interface IDbInitializer
+    public interface IDBInitializer
     {
         public void Initialize();
     }
